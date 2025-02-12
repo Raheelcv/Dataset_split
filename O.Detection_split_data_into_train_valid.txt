@@ -1,0 +1,4 @@
+This script is used for splitting a dataset of annotated images into training, validation, and test sets. It organizes the images and their corresponding label files into separate folders for each set and creates a YAML configuration file that defines the paths to these sets and provides metadata about the dataset, such as the number of classes and their names.
+
+
+Yes, the script at the end will work with the upper script. It uses the main_folder created by the upper script to define the dataset configuration and writes this configuration to a data.yaml file.
